@@ -847,6 +847,10 @@ color: var(--gray-color);
 
   margin-right: 12px;
 }
+.footer-form-email:focus{
+  outline: none;
+  border-color: var(--accent-text-color);
+}
 
 .footer-form-button{
   display: flex;

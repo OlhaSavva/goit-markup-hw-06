@@ -445,6 +445,7 @@ body {
   letter-spacing: 0.06em;
 
   min-width: 200px;
+  transition: background-color var(--transition-effrcts);
 }
 .button:hover,
 .button:focus{
@@ -716,6 +717,8 @@ background-color: var(--description-color);
 
   min-width: 200px;
   position: relative;
+
+  transition: background-color var(--transition-effrcts);
 }
 .modal-form-button:hover,
 .modal-form-button:focus{
@@ -860,6 +863,8 @@ color: var(--gray-color);
 
   min-width: 200px;
   position: relative;
+
+  transition: background-color var(--transition-effrcts);
 }
 .footer-form-button:hover,
 .footer-form-button:focus{

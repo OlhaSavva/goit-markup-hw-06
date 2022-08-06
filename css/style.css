@@ -800,7 +800,8 @@ color: var(--gray-color);
 
   transition: border-color var(--transition-effrcts);
 }
-.modal-form-message:focus{
+.modal-form-message:focus,
+.modal-form-text:focus{
   outline: none;
   border-color: var(--accent-text-color);
 }

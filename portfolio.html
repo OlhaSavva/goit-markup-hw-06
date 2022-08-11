@@ -338,14 +338,16 @@
             </li>
           </ul>
         </div>
-        <form class="footer-modal-form">
+        <div class="footer-modal-form">
           <p class="footer-form-title">Подпишитесь на рассылку</p>
-          <div class="footer-form-item">
+          <form class="footer-form-item">
             <label class="footer-form-input">
               <input
                 class="footer-form-email"
+                name="user-email"
                 type="email"
                 placeholder="E-mail"
+                required
               />
             </label>
             <button class="footer-form-button" type="submit">
@@ -354,8 +356,8 @@
                 <use href="./images/sprite.svg#icon-iconsend"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
   </body>

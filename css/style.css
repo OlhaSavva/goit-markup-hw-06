@@ -530,7 +530,7 @@ body {
   margin-bottom: 20px;
 }
 .join-footer-container{
-  margin-right: 93px;
+  margin-right: auto;
 }
 .icon-figma{
   fill: #000000;
@@ -779,6 +779,7 @@ color: var(--gray-color);
 .modal-form-custom-check{
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 .modal-form-text-comments{
@@ -847,6 +848,8 @@ color: var(--gray-color);
   border-radius: 4px;
 
   margin-right: 12px;
+
+  transition: border-color var(--transition-effrcts);
 }
 .footer-form-email:focus{
   outline: none;
